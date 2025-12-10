@@ -22,6 +22,8 @@ class LLMService:
         4. **Conclusión:** Un párrafo final que sintetice las implicaciones o resultados principales.
 
         El tono debe ser formal, objetivo y académico. Evita redundancias y asegúrate de que el contenido sea comprensible para una audiencia universitaria o profesional.
+        
+        Si el pdf sólo tiene imágenes, debes describir las imagenes del pdf en lugar de hacer un resumen.
 
         Texto a resumir:
         {text[:30000]}  # Limitamos caracteres para evitar exceder tokens si es muy largo, aunque Gemini maneja ventanas grandes.
